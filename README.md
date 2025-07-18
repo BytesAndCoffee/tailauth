@@ -6,7 +6,7 @@
 
 - Automatically accepts login attempts from Tailscale-assigned IPs
 - Logs all login attempts (accepted or rejected)
-- No password required for Tailscale users
+- No^* password required for Tailscale users (*ZNC requires a password for connection, just provide any password, IP-based authentication kicks in)
 - Designed to be secure under the assumption of a trusted Tailscale network
 
 ## Requirements
