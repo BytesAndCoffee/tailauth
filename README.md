@@ -27,7 +27,7 @@
 
 ## How It Works
 
-The module intercepts each login attempt. If the client's IP falls within the Tailscale subnet (100.64.0.0/10), the user is authenticated automatically (no password needed) — assuming the ZNC user exists.
+The module intercepts each login attempt. If the client's IP falls within the Tailscale subnet (100.64.0.0/10), the user is authenticated automatically (as long as any non-empty password is provided) — assuming the ZNC user exists.
 
 All events are logged to:
 ```
